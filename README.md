@@ -55,14 +55,20 @@ To build and run the Flow Free Solver, you will need:
 
 To use the Flow Free Solver, follow these steps:
 
-1. Compile and build the solver (_make -B_)
+1. Compile and build the solver
+
+  ```bash
+  make -B
+  ```
+
 2. Run the solver with the Flow Free puzzle as an input in Unix terminal:
 
   ```bash
-  ./flow -d -S ./puzzles_[ puzzle-complexity ]_[ puzzle-size ]_[ puzzle-number ].txt
+  ./flow -d -S ./puzzles_[puzzle-complexity]_[puzzle-size]_[puzzle-number].txt
   ```
   
   Replace 'puzzle-complexity', 'puzzle-size', and 'puzzle-number'
+  
 3. The solver will generate a solution in SVG, open the SVG file, copy it, and paste it on [SVG Viewer](https://www.svgviewer.dev/) for visualization.
 
 ## Algorithm
