@@ -17,4 +17,4 @@ $(TARGET): $(SRC)
 	$(CC) $(SRC) $(CPPFLAGS) -o $(TARGET) $(LDFLAGS)
 
 clean:
-	rm -f $(TARGET) src/*.o
+	rm -f $(TARGET) src/*.o *.svg

@@ -7,3 +7,4 @@ src/queues.o
 src/search.o
 src/utils.o
 flow
+*.svg
